@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">Fraazo Delivery Partner</string>
+
+    <string name="know_databaseUrl">https://hockey-stick-in-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="know_apiKey">AIzaSyDDSt8p7lFVN7R8mseU0C-7GMfw75eVNm0</string>
+    <string name="know_appId">1:678923970571:android:125c95baa716c1dccf3f0e</string>
+    <string name="know_storageBucket">hockey-stick-in.appspot.com</string>
+    <string name="know_tokenKey">d0ead3d2-ba8b-11ec-8422-0242ac120002</string>
+    <string name="freshchat_file_provider_authority">com.fraazo.delivery.provider</string>
+</resources>

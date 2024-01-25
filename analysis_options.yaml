@@ -1,0 +1,23 @@
+include: package:lint/analysis_options.yaml
+
+
+analyzer:
+#  exclude:
+#    - lib/models/**
+  strong-mode:
+     implicit-casts: true
+#     implicit-dynamic: false
+
+
+linter:
+  rules:
+        constant_identifier_names: false
+        implicit-cast: true
+        implicit-dynamic: true
+        use_build_context_synchronously: false
+        sort_pub_dependencies: false
+        avoid_multiple_declarations_per_line: false
+        avoid_init_to_null: false
+        avoid_classes_with_only_static_members: false
+
+

@@ -1,0 +1,118 @@
+name: fraazo_delivery
+description: Delivery app for Fraazo
+
+publish_to: 'none'
+
+version: 2.0.4+56
+
+environment:
+  sdk: '>=2.13.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # network
+  dio: ^4.0.0
+  firebase_core: ^1.19.2
+  firebase_crashlytics: ^2.8.5
+  cloud_firestore: ^3.3.0
+  firebase_messaging: ^12.0.0
+  dio_firebase_performance: ^0.3.0
+
+
+  # state management
+  flutter_riverpod: ^0.14.0+3
+  get: ^4.6.1
+
+
+  # platform
+  shared_preferences: 2.0.8
+  background_locator: 1.6.6 #1.5.0+1
+  #    git: https://github.com/rahuldange09/background_locator
+  permission_handler: 8.1.6
+  flutter_phone_direct_caller: #^2.0.0
+    git: https://github.com/rahuldange09/flutter-phone-direct-caller
+
+  geolocator: 7.6.0
+  package_info: 2.0.2
+  image_picker: 0.8.4
+  file_picker: 4.0.2
+  path_provider: 2.0.3
+  flutter_local_notifications: 8.2.0
+  restart_app: 1.0.3
+  qr_code_scanner: 0.6.0
+  webview_flutter: 3.0.0
+  location: 4.3.0
+  table_calendar: ^3.0.5
+  flutter_screenutil: ^5.5.3+2
+  device_info_plus: ^4.0.0
+  geocoding: ^2.0.4
+
+  # platform utils
+  sms_autofill: 2.0.1
+  url_launcher: 6.0.10
+#  just_audio: 0.9.11
+#  assets_audio_player: ^3.0.3+6
+  audioplayers: ^0.20.1
+  vibration: 1.7.4-nullsafety.0
+  freshchat_sdk: ^0.9.7
+
+  video_player: 2.3.0
+
+
+  #  flutter_inappwebview: ^5.3.2
+
+
+
+  # ui
+  loadmore: ^2.0.1
+  edge_alerts: ^0.0.1
+  timelines: ^0.1.0
+  bot_toast: ^4.0.1
+  pin_code_fields: ^7.3.0
+  platform: ^3.1.0
+  pull_to_refresh:
+  smooth_page_indicator:
+  carousel_slider: ^4.0.0
+  #flutter_switch: ^0.3.2
+  google_maps_flutter: ^2.1.6
+  flutter_polyline_points: ^1.0.0
+  cached_network_image:
+  battery_plus: ^2.1.4
+
+
+
+  # utils
+  lint: ^1.6.0
+  flutter_image_compress: ^1.1.0
+  intl: ^0.17.0
+  web_socket_channel: ^2.1.0
+  flutter_svg: ^1.0.3
+  google_fonts: ^2.2.0
+  connectivity_plus: ^2.2.1
+
+  # SDKs
+  sentry_flutter: 6.0.0
+  razorpay_flutter: 1.2.9
+  imei_plugin:
+             git: https://github.com/kevincaicedo/imei_plugin
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/png/
+    - assets/images/svg/
+    - assets/audio/

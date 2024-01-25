@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Stag-Debug" type="FlutterRunConfigurationType" factoryName="Flutter" folderName="Stag">
+    <option name="additionalArgs" value="--flavor staging --dart-define=env=stag" />
+    <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+    <method v="2" />
+  </configuration>
+</component>

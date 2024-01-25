@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "132439669770",
+    "firebase_url": "https://fraazo-delivery-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fraazo-delivery",
+    "storage_bucket": "fraazo-delivery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132439669770:android:c5f5934bec122e982c73f3",
+        "android_client_info": {
+          "package_name": "com.fraazo.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132439669770-1bsinrqqtiintf0btptg73bpcq98119c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgOvOSVQ9IqKZXYXzU2TvED-CsUBAt6hs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132439669770-1bsinrqqtiintf0btptg73bpcq98119c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132439669770:android:cb04f72b7a57c3a92c73f3",
+        "android_client_info": {
+          "package_name": "com.fraazo.delivery.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132439669770-1bsinrqqtiintf0btptg73bpcq98119c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgOvOSVQ9IqKZXYXzU2TvED-CsUBAt6hs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132439669770-1bsinrqqtiintf0btptg73bpcq98119c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

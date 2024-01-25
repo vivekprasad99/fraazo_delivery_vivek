@@ -1,0 +1,1 @@
+enum DeliveryType { FULL, CUSTOMER_UNAVAILABLE, PARTIAL }
